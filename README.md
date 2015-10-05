@@ -24,11 +24,12 @@ Go get a trial key (or purchase a paid on) from Atlassian (click on the Atlassia
 
 Make sure you click `Custom Installation` as we are going install to the database.
 
-General configuration - Change the name of the instance here
-Database configuration - Click `External` and select `PostgreSQL`
-Choose how you wish Bamboo to connect to your database - Connection type `Direct JDBC connection`, username `bamboouser`, password `bamboouser`
-Select starting data for Bamboo - Select `Create a new Bamboo home`
-Set up administrator user - Create you admin user here
+* General configuration - Change the name of the instance here
+* Database configuration - Click `External` and select `PostgreSQL`
+* Choose how you wish Bamboo to connect to your database - Connection type `Direct JDBC connection`, username `bamboouser`, password `bamboouser`
+* Select starting data for Bamboo - Select `Create a new Bamboo home`
+* Set up administrator user - Create you admin user here
+
 
 All done! This site can get you started creating a CI workflow for [Java](https://confluence.atlassian.com/bamboo/getting-started-with-java-and-bamboo-289277286.html) or [.NET](https://confluence.atlassian.com/bamboo/getting-started-with-net-and-bamboo-289277288.html)
 
