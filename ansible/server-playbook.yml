@@ -1,0 +1,25 @@
+---
+ - hosts: all
+   sudo: True
+   gather_facts: True
+
+   vars_files:
+     - [ vars/java.yml, vars/bamboo.yml ]
+
+   roles:
+     - { role: kbrebanov.java }
+     - { role: ANXS.postgresql }
+     - { role: kbrebanov.bamboo }
+ 
+   tasks:  
+     - name: Install PHP and its modules
+       apt: pkg={{ item }} state=latest
+       with_items:
+         - php5
+         - php5-cli
+         - php5-curl
+         - php5-gd
+         - php5-imagick
+         - php5-xmlrpc
+         - php5-dev
+         - subversion
