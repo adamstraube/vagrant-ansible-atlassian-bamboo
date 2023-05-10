@@ -1,4 +1,4 @@
-# Easy Atlassian Bamboo VM with Vagrant and Ansible
+# Easy Atlassian Bamboo VM with Vagrant and Ansible [NOT UPDATED/ARCHIVED]
 
 This repo has all that you need to get an Atlassian Bamboo server up quickly (with license key or trial key from Atlassian of course). Useful if you want to test if continuous integration works in your environment, it is also easy to migrate the database later as PostgreSQL is also installed.
 
